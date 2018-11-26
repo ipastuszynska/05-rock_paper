@@ -1,23 +1,91 @@
-
 .jumbotron {
-background: white;
-text-align: center;
-}
-
-button {
-  height: 100px;
-  width: 100px;
+  background: white;
+  text-align: center;
 }
 
 #results p {
   display: inline;
   padding-left: 20px;
   padding-right: 20px;
-
 }
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#buttons {
+  border-top: 1px grey solid;
+}
+
+#buttons, #moveVerdict, #gameSummary, #playAgain {
+  border-bottom: 1px grey solid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 #buttons button {
   margin-left: 20px;
   margin-right: 20px;
+  border-radius: 50%;
+  color: white;
+  height: 200px;
+  width: 200px;
+}
 
+#rock {
+  background-image: url("../images/therock.jpg");
+  background-size: cover;
+}
+
+#paper {
+  background-image: url("../images/Night-Fury.jpg");
+  background-size: cover;
+}
+
+#scissors {
+  background-image: url("../images/johnny_depp.jpg");
+  background-size: cover;
+}
+
+#rock:hover {
+  background-image: url(".//images/therock.jpg");
+  background-color: #ff6961;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#paper:hover {
+  background-image: url(".//images/therock.jpg");
+  background-color: #88D8D3;
+  font-size: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#scissors:hover {
+  background-image: url(".//images/therock.jpg");
+  background-color: #E1CD48;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#playAgain a {
+  background-color: green;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 15px 15px;
+}
+
+
+footer {
+  padding: 30px;
+  font-size: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
 }
