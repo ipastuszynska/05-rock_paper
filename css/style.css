@@ -1,31 +1,30 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
 .jumbotron {
   background: white;
   text-align: center;
 }
 
-#results p {
-  display: inline;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 h2 {
   padding-top: 10px;
   padding-bottom: 30px;
 }
 
-#buttons {
+#buttonsContainer {
   border-top: 1px grey solid;
 }
 
-#buttons, #moveVerdict, #gameSummary, #playAgain {
+#buttonsContainer, #moveVerdictCotainer, #gameSummaryContainer, #playAgainContainer {
   border-bottom: 1px grey solid;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 
-#buttons button {
+#buttonsContainer button {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 50%;
@@ -50,14 +49,14 @@ h2 {
 }
 
 #rock:hover {
-  background-image: url(".//images/therock.jpg");
+  background-image: none;
   background-color: #ff6961;
   font-size: 30px;
   font-weight: bold;
 }
 
 #paper:hover {
-  background-image: url(".//images/therock.jpg");
+  background-image: none;
   background-color: #88D8D3;
   font-size: 30px;
   font-size: 30px;
@@ -65,13 +64,19 @@ h2 {
 }
 
 #scissors:hover {
-  background-image: url(".//images/therock.jpg");
+  background-image: none;
   background-color: #E1CD48;
   font-size: 30px;
   font-weight: bold;
 }
 
-#playAgain a {
+#results p {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#playAgainContainer a {
   background-color: green;
   border-radius: 5px;
   text-decoration: none;
